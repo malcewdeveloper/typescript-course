@@ -12,5 +12,8 @@
     "javascript"
   ],
   "author": " <Maksim Lukhovskiy>",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^4.9.3"
+  }
 }
