@@ -17,9 +17,9 @@ class DogClass {
         this.weight = weight;
     }
 
-    private bark(): void {
-        console.log('bark');
-    }
+    // private bark(): void {
+    //     console.log('bark');
+    // }
 }
 
 class BulldogClass extends DogClass {
@@ -29,26 +29,26 @@ class BulldogClass extends DogClass {
         super(name, weight);
         this.snoringVolume = snoringVolume;
 
-        this.bark()
+        // this.bark()
     }
 }
 
 const dog = new DogClass('Bark', 12);
 
-console.log(dog.bark());
+// console.log(dog.bark());
 
 
 
-const dog2: DogClass = {
-    name: 'Robbie',
-    weight: 5,
-    bark(): void {
-        console.log('Bark! Bark!');
-    },
-};
+// const dog2: DogClass = {
+//     name: 'Robbie',
+//     weight: 5,
+//     bark(): void {
+//         console.log('Bark! Bark!');
+//     },
+// };
 
-console.log(dog2.name);
-console.log(dog2.weight);
-console.log(dog2.bark());
+// console.log(dog2.name);
+// console.log(dog2.weight);
+// console.log(dog2.bark());
 
 
