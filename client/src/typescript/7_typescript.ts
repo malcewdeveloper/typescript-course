@@ -2,9 +2,9 @@
 export interface I1 {
     bark: () => void
 };
-export interface I2 extends I1, I3, T1, C2 { //Любое количество расширений, как от interface, так и class, type
+// export interface I2 extends I1, I3, T1, C2 { //Любое количество расширений, как от interface, так и class, type
 
-};
+// };
 export interface I3 {
 
 };
