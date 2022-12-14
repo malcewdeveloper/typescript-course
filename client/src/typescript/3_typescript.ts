@@ -1,5 +1,5 @@
 // Interfaces
-interface Owner {
+export interface Owner {
     name: string,
 }
 
